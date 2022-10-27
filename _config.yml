@@ -54,8 +54,7 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Hi, Welcome to kissess's blog!
-  주로 공부, 일상에 관한 블로그를 씁니다.
+  kissess의 블로그입니다. 주로 공부, 일상에 관한 블로그를 씁니다.
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
@@ -79,6 +78,13 @@ content:
         description: | # this will include new lines to allow paragraphs
           저는 현재 연구실에서 deep-learning, computer vision을 공부하고 있습니다.
           현재는 인공지능 수학, 오픈소스와 개발도구 활용, 영상처리와 딥러닝, C++ 을 수강하고 있습니다. 
+          
+    - title: Education
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          - 퇴계원 고등학교 졸업(2017.03 ~ 2020.02)
+          - 한림대학교 입학(2020.03 ~ 2024.03 졸업예정)
 #   - title: Experience
 #     layout: list
 #     content:
