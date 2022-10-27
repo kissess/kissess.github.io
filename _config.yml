@@ -55,7 +55,7 @@ additional_links:
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   kissess의 블로그입니다. 주로 공부, 일상에 관한 블로그를 씁니다.
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+     ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Study / Education / work
