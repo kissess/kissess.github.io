@@ -57,12 +57,35 @@ about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   kissess의 블로그입니다. 주로 공부, 일상에 관한 블로그를 씁니다.
      ![alt text](/images/landscape-trees.jpg "Trees")
+     
+content:
+  - title: Study / Education / work
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Study 
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          저는 현재 연구실에서 deep-learning, computer vision을 공부하고 있습니다.
+          현재는 인공지능 수학, 오픈소스와 개발도구 활용, 영상처리와 딥러닝, C++ 을 수강하고 있습니다. 
 
 content:
     - title: Study / Education / work
       layout: list # Type of content section (list/text)
       content:
-          layout: left
+        - layout: left
           border: weak  # Value of `weak` will display a weak border below this item. # Any 
                         # other value (or no value) means no border will be displayed
           title: Study 
@@ -70,28 +93,37 @@ content:
             Short overview of the project (optional)
           description: | # this will include new lines to allow paragraphs
             저는 현재 연구실에서 deep-learning, computer vision을 공부하고 있습니다.
-            현재는 인공지능 수학, 오픈소스와 개발도구 활용, 영상처리와 딥러닝, C++ 을 수강하고 있습니다. 
-
-         title: Education
-         quote: >
-            Short overview of the project (optional)
+            현재는 인공지능 수학, 오픈소스와 개발도구 활용, 영상처리와 딥러닝, C++ 을 수강하고 있습니다.  
+    - title: Work
+      layout: list
+      content:
+        - layout: right
+          title: Company name
+          sub_title: Job title
+          caption: Date Range (eg. November 2016 - present)
+          link: Link to company (optional)
+          quote: >
+            Short description of the company (optional)
+          description: | # this will include new lines to allow paragraphs
+            현재 한림대학교 MMC 연구실의 학부연구생으로써, 많은 것을 배우기 위해 공부 중에 있습니다.
+    - title: Education
+      layout: list
+      content:
+        - layout: top-right
+          title: Institution name
+          sub_title: Qualifications (eg. BA Performing Arts)
+          caption: Date Range (eg. 2016 - 2019)
+          quote: >
+            Short institution or course description (optional)
           description: | # this will include new lines to allow paragraphs
             - 퇴계원 고등학교 졸업(2017.03 ~ 2020.02)
             - 한림대학교 입학(2020.03 ~ 2024.03 졸업예정)
-
-         title: Work
-         quote: >
-            Short overview of the project (optional)
-         description: | # this will include new lines to allow paragraphs
-          현재 한림대학교 MMC 연구실의 학부연구생으로써, 많은 것을 배우기 위해 공부 중에 있습니다.
-
-          
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      저에 대해 더 알고 싶으시다면,
-      - email: 0thdms2@gmail.com
-      - github: @kissess
+    - title: A Little More About Me
+      layout: text
+      content: | # this will include new lines to allow paragraphs
+        저에 대해 더 알고 싶으시다면,
+        - email: 0thdms2@gmail.com
+        - github: @kissess
       
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
