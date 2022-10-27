@@ -73,16 +73,16 @@ content:
           현재는 인공지능 수학, 오픈소스와 개발도구 활용, 영상처리와 딥러닝, C++ 을 수강하고 있습니다. 
           
        title: Education
-        quote: >
+       quote: >
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           - 퇴계원 고등학교 졸업(2017.03 ~ 2020.02)
           - 한림대학교 입학(2020.03 ~ 2024.03 졸업예정)
           
        title: Work
-        quote: >
+       quote: >
           Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
+       description: | # this will include new lines to allow paragraphs
         현재 한림대학교 MMC 연구실의 학부연구생으로써, 많은 것을 배우기 위해 공부 중에 있습니다.
         
           
